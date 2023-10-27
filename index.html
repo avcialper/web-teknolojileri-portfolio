@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alper AVCI</title>
+    <title>Alper Avcı</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,23 +24,36 @@
             style="font-size: 40px; text-decoration: none; color: white"
             >Alper Avcı</a
           >
-          <ul>
-            <li>
-              <a href="#header">Anasayfa</a>
-            </li>
-            <li>
-              <a href="#about">Hakkımda</a>
-            </li>
-            <li>
-              <a href="#skills">Yetenekler</a>
-            </li>
-            <li>
-              <a href="#projects">Projeler</a>
-            </li>
-            <li>
-              <a href="#contact">İletişim</a>
-            </li>
-          </ul>
+
+          <div class="navbar-left">
+            <ul>
+              <li>
+                <a href="#header">Anasayfa</a>
+              </li>
+              <li>
+                <a href="#about">Hakkımda</a>
+              </li>
+              <li>
+                <a href="#skills">Yetenekler</a>
+              </li>
+              <li>
+                <a href="#projects">Projeler</a>
+              </li>
+              <li>
+                <a href="#contact">İletişim</a>
+              </li>
+            </ul>
+
+            <div class="account">
+              <a href="https://github.com/avcialper">
+                <img src="images/github.png" />
+              </a>
+              <a href="https://www.linkedin.com/in/avcialper/">
+                <img src="images/linkedin.png" />
+              </a>
+            </div>
+            
+          </div>
         </nav>
         <!-- Welcome content -->
         <div class="header-text">
@@ -53,20 +66,24 @@
             >
           </button>
           <br />
-          <!-- Github adresi güncellenecek, projenin linki olcak -->
-          <a href="https://github.com/avcialper" target="_blank">
-            <img src="./images/github-icon.png" width="40" />
+          <a
+            href="https://github.com/avcialper/WebTeknolojileriPortfolio"
+            target="_blank"
+          >
+            <img src="images/github.png" width="40" />
           </a>
         </div>
       </div>
     </div>
     <!-- About Me -->
     <div id="about">
+
       <div class="titles">
         <p>HAKKIMDA</p>
       </div>
+
       <div class="container">
-        <img src="./images/pp.jpg" />
+        <img src="images/pp.jpg" />
         <div class="about-text">
           <h2>Ben Alper</h2>
           <p>
@@ -78,12 +95,15 @@
           </p>
         </div>
       </div>
+
     </div>
     <!-- Skills -->
     <div id="skills">
+
       <div class="titles">
         <p>YETENEKLER</p>
       </div>
+      
       <div class="container">
         <div>
           <h2 class="skills-title">Programlama Dilleri</h2>
@@ -92,47 +112,55 @@
             geliştirdim. Ardından mobil alana yöneldim ve şuanda mobil alanda
             ilerliyorum.
           </p>
+
           <div class="programing-skills">
-            <img src="./images/java.png" />
+            <img src="images/java.png" />
             <div class="progress">
               <div class="inner-progress" style="width: 45%">%45</div>
             </div>
           </div>
+
           <div class="programing-skills">
-            <img src="./images/kotlin.png" />
+            <img src="images/kotlin.png" />
             <div class="progress">
               <div class="inner-progress" style="width: 60%">%60</div>
             </div>
           </div>
+
           <div class="programing-skills">
-            <img src="./images/javascript.png" />
+            <img src="images/javascript.png" />
             <div class="progress">
               <div class="inner-progress" style="width: 55%">%55</div>
             </div>
           </div>
+
           <div class="programing-skills">
-            <img src="./images/reactnattive.png" style="margin-right: 17px" />
+            <img src="images/reactnattive.png" style="margin-right: 17px" />
             <div class="progress">
               <div class="inner-progress" style="width: 75%">%75</div>
             </div>
           </div>
+
         </div>
-        <img src="./images/skills.jpg" />
+        <img src="images/skills.jpg" />
       </div>
     </div>
     <!-- Projects -->
     <div id="projects">
+
       <div class="titles">
         <p>PROJELER</p>
       </div>
+
       <div class="project-list">
+
         <a
           href="https://github.com/avcialper/HAVAM-ReactNative"
           target="_blank"
         >
           <div>
             <div class="image-container">
-              <img src="./images/havam.png" />
+              <img src="images/havam.png" />
             </div>
             <h2>HAVAM</h2>
             <p>
@@ -143,13 +171,14 @@
             </p>
           </div>
         </a>
+
         <a
           href="https://github.com/avcialper/CodeTalks-ReactNative"
           target="_blank"
         >
           <div>
             <div class="image-container">
-              <img src="./images/code-talks.png" />
+              <img src="images/codetalks.png" />
             </div>
             <h2>CODE TALKS</h2>
             <p>
@@ -159,13 +188,14 @@
             </p>
           </div>
         </a>
+
         <a
           href="https://github.com/avcialper/PrototypeWorkshopSDU"
           target="_blank"
         >
           <div>
             <div class="image-container">
-              <img src="./images/sduprototype.png" />
+              <img src="images/sduprototype.png" />
             </div>
             <h2>SDU PROTOTİP ATÖLYESİ</h2>
             <p>
@@ -177,13 +207,16 @@
             </p>
           </div>
         </a>
+
       </div>
     </div>
     <!-- Contact -->
     <div id="contact">
+
       <div class="titles">
         <p>İLETİŞİM</p>
       </div>
+
       <div class="container">
         <form>
           <div>

@@ -37,6 +37,25 @@ nav {
   padding: 1% 5%;
 }
 
+.navbar-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.account{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.account a img{
+  margin: 0 5px;
+  height: 36px;
+}
+
 a {
   color: azure;
   font-family: "Roboto Condensed", sans-serif;
@@ -54,6 +73,10 @@ nav ul li a {
   font-family: "Roboto Condensed", sans-serif;
   text-decoration: none;
   font-size: 18px;
+}
+
+.header-text{
+  width: 80%;
 }
 
 .header-text h1 {
